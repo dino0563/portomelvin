@@ -100,7 +100,7 @@
                                     <div class="row">
                                         <div class="col-lg-8 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-mb-30">Projects</h6>
+                                            <h6 class="mil-muted mil-mb-30">Latest Projects</h6>
 
                                             <ul class="mil-menu-list">
                                                 <li><a href="project-1.html" class="mil-light-soft">Interior design
@@ -194,14 +194,11 @@
                     <div class="row justify-content-between">
                         <div class="col-md-4 col-lg-4 mil-mb-60">
 
-                            <div class="mil-muted mil-logo mil-up mil-mb-30">Ashley.</div>
+                            <div class="mil-muted mil-logo mil-up mil-mb-30">Melvin.</div>
 
-                            <p class="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
-
-                            <form class="mil-subscribe-form mil-up">
-                                <input type="text" placeholder="Enter our email">
-                                <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
-                            </form>
+                            <a href="/contact" class="mil-button mil-arrow-place mil-btn-space">
+                                <span>Contact Me</span>
+                            </a>
 
                         </div>
                         <div class="col-md-7 col-lg-6">
@@ -214,7 +211,7 @@
                                                 <a href="home-1.html">Home</a>
                                             </li>
                                             <li class="mil-up">
-                                                <a href="portfolio-1.html">Portfolio</a>
+                                                <a href="{{ route('portfolio')}}">Portfolio</a>
                                             </li>
                                             <li class="mil-up">
                                                 <a href="services.html">Services</a>

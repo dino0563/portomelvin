@@ -37,7 +37,7 @@
                                 <span>What we do</span>
                             </a>
 
-                            <a href="/portfolio" class="mil-link mil-muted mil-arrow-place">
+                            <a href="{{ route('portfolio') }}" class="mil-link mil-muted mil-arrow-place">
                                 <span>View works</span>
                             </a>
 
@@ -162,7 +162,7 @@
                             <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
 
                                 <a href="service.html" class="mil-service-card-sm mil-up">
-                                    <h5 class="mil-muted mil-mb-30">Website Design <br>and Development</h5>
+                                    <h5 class="mil-muted mil-mb-30">Video Editing<br>and Color Grading</h5>
                                     <p class="mil-light-soft mil-mb-30">Our creative agency is a team of professionals
                                         focused on helping your brand grow.</p>
                                     <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
@@ -172,7 +172,7 @@
                             <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
 
                                 <a href="service.html" class="mil-service-card-sm mil-up">
-                                    <h5 class="mil-muted mil-mb-30">Advertising and <br>Marketing Campaigns</h5>
+                                    <h5 class="mil-muted mil-mb-30">Design Graphic<br></h5>
                                     <p class="mil-light-soft mil-mb-30">Our creative agency is a team of professionals
                                         focused on helping your brand grow.</p>
                                     <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
@@ -323,25 +323,21 @@
 
             <!-- partners -->
             <div class="mil-soft-bg">
-                <div class="container mil-p-0-120">
+                <div class="container mil-p-0-100">
 
                     <div class="swiper-container mil-infinite-show mil-up">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="#." class="mil-partner-frame" style="width: 60px;"><img
-                                        src="img/partners/1.svg" alt="logo"></a>
+                                <a href="#." class="mil-partner-frame" style="scale: 40%";><img src="../assets/img/partners/1.png" alt="logo"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#." class="mil-partner-frame" style="width: 100px;"><img
-                                        src="img/partners/2.svg" alt="logo"></a>
+                                <a href="#." class="mil-partner-frame" style="scale: 40%";><img src="../assets/img/partners/2.png" alt="logo"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#." class="mil-partner-frame" style="width: 60px;"><img
-                                        src="img/partners/1.svg" alt="logo"></a>
+                                <a href="#." class="mil-partner-frame" style="scale: 40%";><img src="../assets/img/partners/4.png" alt="logo"></a>
                             </div>
                             <div class="swiper-slide">
-                                <a href="#." class="mil-partner-frame" style="width: 100px;"><img
-                                        src="img/partners/2.svg" alt="logo"></a>
+                                <a href="#." class="mil-partner-frame" style="scale: 40%";><img src="../assets/img/partners/3.png" alt="logo"></a>
                             </div>
                         </div>
                     </div>
